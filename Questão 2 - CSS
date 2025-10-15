@@ -1,0 +1,25 @@
+body {
+ font-family: Arial, sans-serif;
+ text-alingn: center;
+ margin-top: 100px;
+ background-color: #fffbea;
+}
+input, button {
+ padding: 10px;
+ margin: 10px;
+}
+button {
+ background-color: #ffa500;
+ color: white;
+ border: none;
+ cursor: pointer;
+}
+button:hover {
+ background-color: #cc8400;
+}
+ul {
+ list-style-type: decimal;
+ display: inline-block;
+ text-align: left;
+ margin-top: 20px;
+}
