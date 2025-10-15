@@ -1,0 +1,25 @@
+function gerarLista() {
+ const numero =
+parselnt(document.getElementByld("numero").value);
+ const mensagem =
+document.getElementByld("mensagem");
+ const lista = document.getElementByld("lista");
+
+ lista.innerHTML = "";
+ mensagem.textContent = "";
+
+if(isNaN(numero) || numero <= 0) {
+ mensagem.textContent = "Por favor, insira um número válido";
+ mensagem.style.color = "red";
+ return;
+ }
+
+mensagem.textContent = "Lista gerada com sucesso!";
+mensagem.style.color = "green";
+
+for(let i = 1; i <= numero; i++) {
+ const item = document.creatElement("li");
+ item.textContent = ${i} - Seu Nome Aqui;
+ lista.appendChild(item);
+ } 
+}
