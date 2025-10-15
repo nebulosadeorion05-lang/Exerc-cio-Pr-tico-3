@@ -1,0 +1,14 @@
+function mostrarMensagem() {
+ const nome =
+document.getElementByld("nome").value.trim();
+ const mensagem =
+document.getElementByld("mensagem");
+
+ if (nome === "") {
+  mensagem.textContent = "Por favor, insira seu nome";
+  mensagem.style.color = "red";
+} else {
+  mensagem.textContent = "Olá, ${nome}! Seja bem-vindo à pagina do(a) aluno(a)!";
+  mensagem.style.color = "green";
+ }
+}
