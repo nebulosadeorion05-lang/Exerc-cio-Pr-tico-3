@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+ <meta charset = "UTF-8">
+ <meta name = "viewport" content = "width = device-width, inicial-scale = 1.0">
+ <title> Questão 2 - Gerador de lista </title>
+ <link rel = "stylesheet href = "style.css">
+</head>
+<body>
+ <h1> Gerador de Lista </h1>
+ <p> Digite a quantidade de itens </p>
+
+ <input type = "number" id = "numero" placeholder = "Ex: 5">
+ <button onclick = "gerarLista()"> Gerar Lista </button>
+
+ <div id = "mensagem"> </div>
+ <ul id = "lista"> </ul>
+
+ <script src = "script.js"> </script>
+</body>
+</html>
